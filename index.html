@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/style-to-do.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+
+<div class="main-content">
+    <h1>My Calendar</h1>
+  <div class="cal" id="calendar" ></div>
+
+  <section class="container">
+
+
+  <input class="input" id="input" type="number" value="2019" min="1980" max="2050">
+
+    <select name="" id="select" >
+      <option value="" disabled selected>Выбирите месяц</option>
+      <option value="0">Январь</option>
+      <option value="1">Февраль</option>
+      <option value="2">Март</option>
+      <option value="3">Апрель</option>
+      <option value="4">Май</option>
+      <option value="5">Июнь</option>
+      <option value="6">Июль</option>
+      <option value="7">Август</option>
+      <option value="8">Сентябрь</option>
+      <option value="9">Октябрь</option>
+      <option value="10">Ноябрь</option>
+      <option value="11">Декабрь</option>
+    </select>
+  
+  </section>
+  
+</div >
+
+<div class="task">
+  <div class="wrapper" >
+    <div class="header">
+
+      <h2>Todo list</h2>
+
+      <textarea name="" id="toDoEl" placeholder="Внесите заметку..." cols="100" rows="5"></textarea>
+      <span class="addBtn" onclick="newElement()">Добавить</span>
+
+    </div>
+    <ul id="list"></ul>
+  </div>
+</div>
+<!--<textarea class="task" name="" id="" cols="30" rows="1"></textarea>-->
+  <script src="app/app.js"></script>
+  <script src="app/app-to-do.js"></script>
+</body>
+
+</html>

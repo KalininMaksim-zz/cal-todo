@@ -1,0 +1,54 @@
+.main-content{
+  max-width: 1000px;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+}
+
+table {
+  border: 3px solid white;
+  border-radius: 5px;
+  background-image: linear-gradient(45deg, #4169E1,#000080,#00008B,#0000CD,#0000FF,#1E90FF); 
+}
+
+td, th {
+  cursor: pointer;
+  border: 2px solid white;
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 5px;
+  color:white;  
+  
+}
+
+th {
+  height: 50px;
+  font-weight: bold;
+  background-color:rgba(255, 255, 255, 0.5);
+  border: 2px solid white;
+  border-radius: 5px;
+
+}
+
+h1{
+  text-align: center;
+}
+
+.input {
+  margin-bottom: 10px;
+}
+
+.container, .cal {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.task {
+  display: none;
+  margin: auto;
+
+}
+
